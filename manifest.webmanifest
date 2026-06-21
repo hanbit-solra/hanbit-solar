@@ -1,19 +1,19 @@
-{
-    "name":  "인버탑",
-    "short_name":  "인버탑",
-    "description":  "태양광 시공 배차와 현장 등록을 빠르게 연결하는 인버탑 모바일 플랫폼",
-    "start_url":  "/hanbit-solar/#/login",
-    "scope":  "/hanbit-solar/",
-    "display":  "standalone",
-    "orientation":  "portrait",
-    "background_color":  "#0c1728",
-    "theme_color":  "#1a2e4c",
-    "icons":  [
-                  {
-                      "src":  "/hanbit-solar/icons/icon.svg",
-                      "sizes":  "any",
-                      "type":  "image/svg+xml",
-                      "purpose":  "any maskable"
-                  }
-              ]
+﻿{
+  "name": "인버탑",
+  "short_name": "인버탑",
+  "description": "태양광 시공 배차와 현장 등록을 빠르게 연결하는 인버탑 모바일 플랫폼",
+  "start_url": "/#/login",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0c1728",
+  "theme_color": "#1a2e4c",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
 }

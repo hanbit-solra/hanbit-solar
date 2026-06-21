@@ -1,5 +1,5 @@
 const CACHE_NAME = "hanbit-solar-v1";
-const APP_SHELL = ["/hanbit-solar/", "/hanbit-solar/index.html", "/hanbit-solar/manifest.webmanifest", "/hanbit-solar/icons/icon.svg"];
+const APP_SHELL = ["/", "/index.html", "/manifest.webmanifest", "/icons/icon.svg"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -20,7 +20,7 @@ self.addEventListener("fetch", (event) => {
 
   if (event.request.mode === "navigate") {
     event.respondWith(
-      fetch(event.request).catch(() => caches.match("/hanbit-solar/index.html"))
+      fetch(event.request).catch(() => caches.match("/index.html"))
     );
     return;
   }
